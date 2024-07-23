@@ -16,7 +16,7 @@
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ loadAboutPage)\n/* harmony export */ });\nfunction loadAboutPage() {\r\n    const content = document.querySelector(\"#content\");\r\n\r\n    const img = document.createElement(\"img\");\r\n    img.src = '/assets/pizza.jpg';\r\n    img.alt = 'A delicious pizza';\r\n    img.style.width = '100%';\r\n    img.style.height = '30vh';\r\n    img.style.objectFit = 'cover';\r\n\r\n    const headTitle = document.createElement(\"h1\");\r\n    headTitle.innerHTML = \"About me\";\r\n\r\n    const description = document.createElement(\"h3\");\r\n    description.innerHTML = \"Young computer scientist with special love for pizza\"\r\n\r\n    content.appendChild(img);\r\n    content.appendChild(headTitle);\r\n    content.appendChild(description);\r\n}\n\n//# sourceURL=webpack://odin-restaurant-page/./src/about.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ loadAboutPage)\n/* harmony export */ });\n/* harmony import */ var _assets_pizza_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../assets/pizza.jpg */ \"./assets/pizza.jpg\");\n\r\n\r\nfunction loadAboutPage() {\r\n    const content = document.querySelector(\"#content\");\r\n\r\n    const img = document.createElement(\"img\");\r\n    img.src = _assets_pizza_jpg__WEBPACK_IMPORTED_MODULE_0__;\r\n    img.alt = 'A delicious pizza';\r\n    img.style.width = '100%';\r\n    img.style.height = '30vh';\r\n    img.style.objectFit = 'cover';\r\n\r\n    const headTitle = document.createElement(\"h1\");\r\n    headTitle.innerHTML = \"About me\";\r\n\r\n    const description = document.createElement(\"h3\");\r\n    description.innerHTML = \"Young computer scientist with special love for pizza\"\r\n\r\n    content.appendChild(img);\r\n    content.appendChild(headTitle);\r\n    content.appendChild(description);\r\n}\n\n//# sourceURL=webpack://odin-restaurant-page/./src/about.js?");
 
 /***/ }),
 
@@ -26,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ loadHomePage)\n/* harmony export */ });\nfunction loadHomePage() {\r\n    const content = document.querySelector(\"#content\");\r\n\r\n    const img = document.createElement(\"img\");\r\n    img.src = '/assets/pizza.jpg';\r\n    img.alt = 'A delicious pizza';\r\n    img.style.width = '100%';\r\n    img.style.height = '30vh';\r\n    img.style.objectFit = 'cover';\r\n\r\n    const headTitle = document.createElement(\"h1\");\r\n    headTitle.innerHTML = \"Pizzeria Lurisz\";\r\n\r\n    const description = document.createElement(\"h3\");\r\n    description.innerHTML = \"A pizza-ish experience like no other!\"\r\n\r\n    content.appendChild(img);\r\n    content.appendChild(headTitle);\r\n    content.appendChild(description);\r\n}\n\n//# sourceURL=webpack://odin-restaurant-page/./src/home.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ loadHomePage)\n/* harmony export */ });\n/* harmony import */ var _assets_pizza_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../assets/pizza.jpg */ \"./assets/pizza.jpg\");\n\r\n\r\nfunction loadHomePage() {\r\n    const content = document.querySelector(\"#content\");\r\n\r\n    const img = document.createElement(\"img\");\r\n    img.src = _assets_pizza_jpg__WEBPACK_IMPORTED_MODULE_0__;\r\n    img.alt = 'A delicious pizza';\r\n    img.style.width = '100%';\r\n    img.style.height = '30vh';\r\n    img.style.objectFit = 'cover';\r\n\r\n    const headTitle = document.createElement(\"h1\");\r\n    headTitle.innerHTML = \"Pizzeria Lurisz\";\r\n\r\n    const description = document.createElement(\"h3\");\r\n    description.innerHTML = \"A pizza-ish experience like no other!\"\r\n\r\n    content.appendChild(img);\r\n    content.appendChild(headTitle);\r\n    content.appendChild(description);\r\n}\n\n//# sourceURL=webpack://odin-restaurant-page/./src/home.js?");
 
 /***/ }),
 
@@ -46,7 +46,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _hom
   \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ loadMenuPage)\n/* harmony export */ });\nfunction loadMenuPage() {\r\n    const content = document.querySelector(\"#content\");\r\n\r\n    const img = document.createElement(\"img\");\r\n    img.src = '/assets/pizza.jpg';\r\n    img.alt = 'A delicious pizza';\r\n    img.style.width = '100%';\r\n    img.style.height = '30vh';\r\n    img.style.objectFit = 'cover';\r\n\r\n    const headTitle = document.createElement(\"h1\");\r\n    headTitle.innerHTML = \"Menu Pizza normal 30cm\";\r\n\r\n    const description1 = document.createElement(\"h2\");\r\n    description1.innerHTML = \"Margherita\"\r\n\r\n    const ingredients1 = document.createElement(\"h3\");\r\n    ingredients1.innerHTML = \"Tomato sauce, mozzarella (Italy), oregano BIO\"\r\n\r\n    const description2 = document.createElement(\"h2\");\r\n    description2.innerHTML = \"Napoli\"\r\n\r\n    const ingredients2 = document.createElement(\"h3\");\r\n    ingredients2.innerHTML = \"Tomato sauce, mozzarella (Italy), fresh pepperoni, olives, oregano BIO\"\r\n\r\n    content.appendChild(img);\r\n    content.appendChild(headTitle);\r\n    content.appendChild(description1);\r\n    content.appendChild(ingredients1);\r\n    content.appendChild(description2);\r\n    content.appendChild(ingredients2);\r\n}\n\n//# sourceURL=webpack://odin-restaurant-page/./src/menu.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ loadMenuPage)\n/* harmony export */ });\n/* harmony import */ var _assets_pizza_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../assets/pizza.jpg */ \"./assets/pizza.jpg\");\n\r\n\r\nfunction loadMenuPage() {\r\n    const content = document.querySelector(\"#content\");\r\n\r\n    const img = document.createElement(\"img\");\r\n    img.src = _assets_pizza_jpg__WEBPACK_IMPORTED_MODULE_0__;\r\n    img.alt = 'A delicious pizza';\r\n    img.style.width = '100%';\r\n    img.style.height = '30vh';\r\n    img.style.objectFit = 'cover';\r\n\r\n    const headTitle = document.createElement(\"h1\");\r\n    headTitle.innerHTML = \"Menu Pizza normal 30cm\";\r\n\r\n    const description1 = document.createElement(\"h2\");\r\n    description1.innerHTML = \"Margherita\"\r\n\r\n    const ingredients1 = document.createElement(\"h3\");\r\n    ingredients1.innerHTML = \"Tomato sauce, mozzarella (Italy), oregano BIO\"\r\n\r\n    const description2 = document.createElement(\"h2\");\r\n    description2.innerHTML = \"Napoli\"\r\n\r\n    const ingredients2 = document.createElement(\"h3\");\r\n    ingredients2.innerHTML = \"Tomato sauce, mozzarella (Italy), fresh pepperoni, olives, oregano BIO\"\r\n\r\n    content.appendChild(img);\r\n    content.appendChild(headTitle);\r\n    content.appendChild(description1);\r\n    content.appendChild(ingredients1);\r\n    content.appendChild(description2);\r\n    content.appendChild(ingredients2);\r\n}\n\n//# sourceURL=webpack://odin-restaurant-page/./src/menu.js?");
+
+/***/ }),
+
+/***/ "./assets/pizza.jpg":
+/*!**************************!*\
+  !*** ./assets/pizza.jpg ***!
+  \**************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"0493c0b507f808e7f821.jpg\";\n\n//# sourceURL=webpack://odin-restaurant-page/./assets/pizza.jpg?");
 
 /***/ })
 
@@ -89,6 +99,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -103,6 +125,29 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src;
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) {
+/******/ 					var i = scripts.length - 1;
+/******/ 					while (i > -1 && (!scriptUrl || !/^http(s?):/.test(scriptUrl))) scriptUrl = scripts[i--].src;
+/******/ 				}
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
 /******/ 	})();
 /******/ 	
 /************************************************************************/
